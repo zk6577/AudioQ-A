@@ -1,0 +1,1414 @@
+{
+  "intents": [
+
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day",
+        "Namaste",
+        "yo"
+      ],
+      "responses": [
+        "Hello",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Till next time",
+        "bbye"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome thanks",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, I can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    },
+
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Joke",
+        "Make me laugh"
+      ],
+      "responses": [
+        "I ate a clock yesterday, it was very time consuming",
+        "What do you call a snowman with a suntan? A puddle",
+        "How does a penguin build a house? Igloos it together"
+      ]
+    },
+
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you",
+        "What are you"
+      ],
+      "responses": [
+        "I am JARVIS, a deep learning based virtual assistant"
+      ]
+    },
+
+    {
+      "tag": "datetime",
+      "patterns": [
+        "What is the time",
+        "What is the date",
+        "Date",
+        "Time",
+        "What day is today"
+      ],
+      "responses": [
+        "I can help you check date and time"
+      ]
+    },
+
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you",
+        "When were you made",
+        "What is your age"
+      ],
+      "responses": [
+        "I was made in 2024"
+      ]
+    },
+
+    {
+      "tag": "java_info",
+      "patterns": [
+        "What is Java",
+        "Explain Java",
+        "Tell me about Java",
+        "Why Java is important"
+      ],
+      "responses": [
+        "Java is a high level object oriented programming language used to build mobile apps enterprise software and web applications.",
+        "Java is platform independent which means it can run on any operating system."
+      ]
+    },
+
+    {
+      "tag": "python_info",
+      "patterns": [
+        "What is Python",
+        "Explain Python",
+        "Why Python is popular",
+        "Python use cases"
+      ],
+      "responses": [
+        "Python is an easy and powerful programming language used in Artificial Intelligence data science web development and automation.",
+        "Python is popular because of its simple syntax and huge ecosystem of libraries."
+      ]
+    },
+
+    {
+      "tag": "html_info",
+      "patterns": [
+        "What is HTML",
+        "Explain HTML",
+        "HTML use"
+      ],
+      "responses": [
+        "HTML is used to create structure of websites using elements like headings paragraphs and images.",
+        "HTML is the backbone of web development."
+      ]
+    },
+
+    {
+      "tag": "css_info",
+      "patterns": [
+        "What is CSS",
+        "Explain CSS",
+        "CSS use"
+      ],
+      "responses": [
+        "CSS is used to design and style websites using colors layouts and animations.",
+        "CSS makes websites attractive and responsive."
+      ]
+    },
+
+    {
+      "tag": "javascript_info",
+      "patterns": [
+        "What is JavaScript",
+        "Explain JavaScript",
+        "JS use"
+      ],
+      "responses": [
+        "JavaScript is used to make websites interactive and dynamic.",
+        "JavaScript is one of the core technologies of web development."
+      ]
+    },
+
+    {
+      "tag": "ai_info",
+      "patterns": [
+        "What is AI",
+        "Explain Artificial Intelligence",
+        "Tell me about AI"
+      ],
+      "responses": [
+        "Artificial Intelligence is technology that allows machines to think learn and make decisions like humans.",
+        "AI is used in voice assistants recommendation systems and self driving cars."
+      ]
+    },
+
+    {
+      "tag": "ml_info",
+      "patterns": [
+        "What is Machine Learning",
+        "Explain Machine Learning"
+      ],
+      "responses": [
+        "Machine Learning is a part of AI where computers learn from data automatically.",
+        "Machine Learning is used in spam detection fraud detection and recommendations."
+      ]
+    },
+
+    {
+      "tag": "database_info",
+      "patterns": [
+        "What is database",
+        "Explain database"
+      ],
+      "responses": [
+        "Database is used to store manage and retrieve data efficiently.",
+        "Databases are used in apps websites and banking systems."
+      ]
+    },
+
+    {
+      "tag": "cloud_info",
+      "patterns": [
+        "What is cloud computing",
+        "Explain cloud"
+      ],
+      "responses": [
+        "Cloud computing means storing and accessing data over internet instead of local computer.",
+        "Cloud services provide online storage servers and software."
+      ]
+    },
+
+    {
+      "tag": "os_info",
+      "patterns": [
+        "What is Operating System",
+        "Explain OS"
+      ],
+      "responses": [
+        "Operating System manages computer hardware and software.",
+        "Examples are Windows Linux and macOS."
+      ]
+    },
+
+    {
+      "tag": "ram_info",
+      "patterns": [
+        "What is RAM",
+        "Explain RAM"
+      ],
+      "responses": [
+        "RAM is temporary memory used to run applications.",
+        "More RAM means better multitasking performance."
+      ]
+    },
+
+    {
+      "tag": "cpu_info",
+      "patterns": [
+        "What is CPU",
+        "Explain CPU"
+      ],
+      "responses": [
+        "CPU is the brain of the computer that processes instructions.",
+        "CPU performs calculations and runs programs."
+      ]
+    },
+
+    {
+      "tag": "internet_info",
+      "patterns": [
+        "What is Internet",
+        "Explain Internet"
+      ],
+      "responses": [
+        "Internet is a global network connecting millions of devices.",
+        "Internet allows communication information sharing and online services."
+      ]
+    },
+
+    {
+      "tag": "cybersecurity_info",
+      "patterns": [
+        "What is Cyber Security",
+        "Explain Cyber Security"
+      ],
+      "responses": [
+        "Cyber Security protects systems networks and data from cyber attacks.",
+        "Cyber Security prevents hacking and data theft."
+      ]
+    },
+
+    {
+      "tag": "coding_info",
+      "patterns": [
+        "What is coding",
+        "Explain coding"
+      ],
+      "responses": [
+        "Coding is writing instructions for computers using programming languages.",
+        "Coding is used to build apps websites and software."
+      ]
+    },
+
+    {
+      "tag": "developer_info",
+      "patterns": [
+        "What is developer",
+        "Who is software developer"
+      ],
+      "responses": [
+        "Developer is a person who writes code to create software and applications.",
+        "Developers build technology solutions using programming languages."
+      ]
+    }
+,
+{
+  "tag": "open_facebook",
+  "patterns": [
+    "open facebook",
+    "facebook kholo",
+    "launch facebook",
+    "go to facebook",
+    "facebook open karo",
+    "start facebook",
+    "can you open facebook",
+    "facebook website open"
+  ],
+  "responses": [
+    "Opening Facebook.",
+    "Sure, opening Facebook now.",
+    "Okay, Facebook is opening."
+  ]
+},
+{
+  "tag": "open_instagram",
+  "patterns": [
+    "open instagram",
+    "instagram kholo",
+    "launch instagram",
+    "go to instagram",
+    "instagram open karo",
+    "start instagram",
+    "can you open instagram",
+    "instagram website open"
+  ],
+  "responses": [
+    "Opening Instagram.",
+    "Sure, opening Instagram now.",
+    "Okay, Instagram is opening."
+  ]
+},
+{
+  "tag": "open_whatsapp",
+  "patterns": [
+    "open whatsapp",
+    "whatsapp kholo",
+    "open whatsapp web",
+    "launch whatsapp",
+    "go to whatsapp",
+    "whatsapp open karo",
+    "start whatsapp web",
+    "whatsapp web kholo"
+  ],
+  "responses": [
+    "Opening WhatsApp Web.",
+    "Sure, opening WhatsApp Web now.",
+    "Okay, WhatsApp Web is opening."
+  ]
+},
+{
+  "tag": "system_condition",
+  "patterns": [
+    "system condition",
+    "system status",
+    "cpu status",
+    "battery status",
+    "tell me cpu usage",
+    "tell me battery percentage",
+    "check my system",
+    "check cpu and battery",
+    "system health",
+    "pc status"
+  ],
+  "responses": [
+    "Okay, checking CPU and battery status.",
+    "Sure, I will tell you the CPU usage and battery percentage.",
+    "Checking system condition now."
+  ]
+},
+{
+  "tag": "exit_app",
+  "patterns": [
+    "exit",
+    "quit",
+    "close",
+    "stop",
+    "bye jarvis",
+    "shutdown assistant",
+    "close assistant",
+    "jarvis exit"
+  ],
+  "responses": [
+    "Goodbye! See you soon.",
+    "Okay, closing now. Bye!",
+    "Bye! Come back again."
+  ]
+},
+{
+  "tag": "time_now",
+  "patterns": [
+    "tell me time",
+    "what time is it",
+    "current time",
+    "time please",
+    "time batao",
+    "now time",
+    "jarvis time",
+    "can you tell time"
+  ],
+  "responses": [
+    "I can tell you the time if you connect time function in code.",
+    "Sure, I can help you check the current time.",
+    "I can help you with time and date."
+  ]
+},
+{
+  "tag": "date_today",
+  "patterns": [
+    "tell me date",
+    "what is today's date",
+    "current date",
+    "date please",
+    "aaj ki date kya hai",
+    "today date",
+    "jarvis date",
+    "can you tell date"
+  ],
+  "responses": [
+    "I can help you check today’s date.",
+    "Sure, I can tell you the date.",
+    "I can help with date and day."
+  ]
+},
+{
+  "tag": "day_today",
+  "patterns": [
+    "what day is today",
+    "today is which day",
+    "aaj ka din kya hai",
+    "today day",
+    "jarvis which day",
+    "tell me the day",
+    "day today",
+    "today weekday"
+  ],
+  "responses": [
+    "I can help you check which day it is today.",
+    "Sure, I can tell you today's day.",
+    "I can help with day, date and time."
+  ]
+},
+{
+  "tag": "weather_info",
+  "patterns": [
+    "what is the weather",
+    "weather update",
+    "today weather",
+    "is it raining",
+    "temperature today",
+    "mausam kaisa hai",
+    "weather batao",
+    "current weather"
+  ],
+  "responses": [
+    "I can’t fetch live weather yet, but I can help you integrate a weather API.",
+    "For real-time weather, you can connect OpenWeather API.",
+    "Tell me your city and I can guide you to add weather feature."
+  ]
+},
+{
+  "tag": "motivation",
+  "patterns": [
+    "motivate me",
+    "i feel low",
+    "i am tired",
+    "i feel depressed",
+    "encourage me",
+    "give me motivation",
+    "motivation please",
+    "inspire me"
+  ],
+  "responses": [
+    "You are stronger than your excuses. Start small, but start now.",
+    "Consistency beats talent. Keep going, you will improve daily.",
+    "Don’t stop. Your future self will thank you."
+  ]
+},
+{
+  "tag": "study_tips",
+  "patterns": [
+    "study tips",
+    "how to study",
+    "how to study fast",
+    "study plan",
+    "how to focus in study",
+    "exam preparation tips",
+    "revision tips",
+    "how to remember things"
+  ],
+  "responses": [
+    "Use Pomodoro: 25 min study + 5 min break. Repeat 4 times then long break.",
+    "Make short notes and revise daily. Practice questions for strong memory.",
+    "Study smart: focus on high-weight topics and past papers."
+  ]
+},
+{
+  "tag": "exam_tips",
+  "patterns": [
+    "exam tips",
+    "how to pass exam",
+    "exam preparation",
+    "paper kaise pass kare",
+    "exam me help karo",
+    "last day study tips",
+    "revision plan for exam",
+    "exam kaise nikale"
+  ],
+  "responses": [
+    "Solve previous year papers and revise important topics first.",
+    "Make a short revision list and practice writing answers.",
+    "Don’t panic. Focus on easy scoring topics and keep revising."
+  ]
+},
+{
+  "tag": "attendance_help",
+  "patterns": [
+    "attendance is low",
+    "attendance application",
+    "75 percent attendance",
+    "hod ko application",
+    "attendance kam hai",
+    "attendance problem",
+    "write application for attendance",
+    "attendance request letter"
+  ],
+  "responses": [
+    "Tell me your attendance percentage and reason, I will write a short application.",
+    "Sure, share your details and I’ll make an attendance request letter.",
+    "I can write a polite application to HOD/teacher for attendance."
+  ]
+},
+{
+  "tag": "career_advice",
+  "patterns": [
+    "career advice",
+    "which career is best",
+    "what should i choose",
+    "it career guidance",
+    "future in ai",
+    "which field is best",
+    "career roadmap",
+    "best skill to learn"
+  ],
+  "responses": [
+    "AI, Data Science, Cybersecurity and Cloud are strong career options.",
+    "Tell me your interest: coding, design, security, or data — I’ll guide you.",
+    "Choose based on interest + demand. I can share a roadmap."
+  ]
+},
+{
+  "tag": "frontend_info",
+  "patterns": [
+    "what is frontend",
+    "frontend development",
+    "frontend developer work",
+    "frontend kya hota",
+    "frontend meaning",
+    "frontend skills",
+    "frontend roadmap",
+    "frontend ka kaam"
+  ],
+  "responses": [
+    "Frontend is the part users see: UI, design, buttons, pages. Uses HTML, CSS, JavaScript.",
+    "Frontend developers build user interface and user experience of websites.",
+    "Want roadmap? Learn HTML → CSS → JS → React → Projects."
+  ]
+},
+{
+  "tag": "backend_info",
+  "patterns": [
+    "what is backend",
+    "backend development",
+    "backend developer work",
+    "backend kya hota",
+    "server side kya hota",
+    "backend skills",
+    "backend roadmap",
+    "backend ka kaam"
+  ],
+  "responses": [
+    "Backend handles server, database, authentication and APIs.",
+    "Backend developers write logic that runs behind the scenes.",
+    "Roadmap: Programming → DB → APIs → Authentication → Deployment."
+  ]
+},
+{
+  "tag": "fullstack_info",
+  "patterns": [
+    "what is full stack",
+    "full stack developer",
+    "fullstack meaning",
+    "full stack kya hota",
+    "full stack skills",
+    "full stack roadmap",
+    "should i learn fullstack",
+    "full stack work"
+  ],
+  "responses": [
+    "Full stack developer works on both frontend and backend.",
+    "Full stack means complete web app development from UI to database.",
+    "Roadmap: HTML/CSS/JS → React → Node/Express → DB → Projects."
+  ]
+},
+{
+  "tag": "api_info",
+  "patterns": [
+    "what is api",
+    "api meaning",
+    "explain api",
+    "rest api",
+    "api kya hota",
+    "why api is used",
+    "api example",
+    "what is restful api"
+  ],
+  "responses": [
+    "API lets two apps talk to each other and share data.",
+    "REST API uses HTTP methods like GET, POST, PUT, DELETE.",
+    "Example: Your app calls API to fetch weather, login, or user data."
+  ]
+},
+{
+  "tag": "git_info",
+  "patterns": [
+    "what is git",
+    "explain git",
+    "why git is used",
+    "git kya hota",
+    "git vs github",
+    "how git works",
+    "version control meaning",
+    "git basics"
+  ],
+  "responses": [
+    "Git is a version control system used to track code changes.",
+    "Git helps teams collaborate and manage project history safely.",
+    "GitHub is a platform to host Git repositories online."
+  ]
+},
+{
+  "tag": "oops_info",
+  "patterns": [
+    "what is oops",
+    "oops concepts",
+    "object oriented programming",
+    "oops kya hota",
+    "principles of oops",
+    "inheritance polymorphism",
+    "encapsulation abstraction",
+    "oop explanation"
+  ],
+  "responses": [
+    "OOP organizes code using classes and objects for cleaner structure.",
+    "Main concepts: Encapsulation, Inheritance, Polymorphism, Abstraction.",
+    "OOP makes code reusable, maintainable and scalable."
+  ]
+},
+{
+  "tag": "dsa_info",
+  "patterns": [
+    "what is dsa",
+    "data structures and algorithms",
+    "why dsa is important",
+    "dsa kya hota",
+    "learn dsa",
+    "dsa roadmap",
+    "best dsa topics",
+    "how to start dsa"
+  ],
+  "responses": [
+    "DSA helps you write efficient programs and improves problem-solving.",
+    "Start with arrays/strings → linked list → stack/queue → trees/graphs.",
+    "Practice daily and solve problems to improve speed and logic."
+  ]
+},
+{
+  "tag": "sql_info",
+  "patterns": [
+    "what is sql",
+    "sql meaning",
+    "sql kya hota",
+    "learn sql",
+    "sql commands",
+    "select query",
+    "what is database query",
+    "sql basics"
+  ],
+  "responses": [
+    "SQL is used to manage and query data in relational databases.",
+    "Common SQL commands: SELECT, INSERT, UPDATE, DELETE.",
+    "SQL is important for backend, data science, and analytics."
+  ]
+},
+{
+  "tag": "nosql_info",
+  "patterns": [
+    "what is nosql",
+    "nosql meaning",
+    "mongodb kya hota",
+    "nosql database",
+    "sql vs nosql",
+    "document database",
+    "mongodb meaning",
+    "nosql example"
+  ],
+  "responses": [
+    "NoSQL databases store data in flexible formats like documents and key-value.",
+    "MongoDB is a popular NoSQL document database.",
+    "NoSQL is good for fast scaling and flexible data structures."
+  ]
+},
+{
+  "tag": "linux_info",
+  "patterns": [
+    "what is linux",
+    "linux meaning",
+    "why linux is used",
+    "linux kya hota",
+    "linux vs windows",
+    "linux for programming",
+    "linux commands",
+    "learn linux"
+  ],
+  "responses": [
+    "Linux is an open-source operating system widely used in servers and development. Linux is stable, secure, and perfect for coding and cloud work."
+    
+  ]
+},
+{
+  "tag": "networking_info",
+  "patterns": [
+    "what is networking",
+    "computer networks",
+    "networking meaning",
+    "network kya hota",
+    "lan wan man",
+    "ip address meaning",
+    "dns meaning",
+    "basic networking"
+  ],
+  "responses": [
+    "Networking connects devices to share data using protocols like TCP/IP.",
+    "LAN is local network, WAN covers large areas like the internet.",
+    "Basics: IP address, DNS, router, switch, protocols."
+  ]
+},
+{
+  "tag": "cybersecurity_tips",
+  "patterns": [
+    "how to stay safe online",
+    "cybersecurity tips",
+    "avoid hacking",
+    "how to protect account",
+    "online security",
+    "phishing meaning",
+    "how to secure password",
+    "prevent malware"
+  ],
+  "responses": [
+    "Use strong passwords + 2FA, and never click unknown links.",
+    "Don’t share OTP, update software, and use antivirus if needed.",
+    "Phishing = fake messages that steal info. Always verify sender."
+  ]
+},
+{
+  "tag": "project_ideas",
+  "patterns": [
+    "project ideas",
+    "final year project",
+    "python project ideas",
+    "ai project ideas",
+    "web development project",
+    "give me project",
+    "college project idea",
+    "unique project"
+  ],
+  "responses": [
+    "Try: Chatbot, Attendance system, Expense tracker, Weather app, Notes app.",
+    "For AI: Sentiment analysis, Spam detector, Image classifier.",
+    "Tell me your language (Python/Java/Web) and I’ll suggest best project."
+  ]
+},
+{
+  "tag": "resume_tips",
+  "patterns": [
+    "resume tips",
+    "cv tips",
+    "make resume",
+    "how to make cv",
+    "resume format",
+    "resume kaise banaye",
+    "ats resume",
+    "resume for fresher"
+  ],
+  "responses": [
+    "Keep it 1 page: Skills, Projects, Education, Achievements.",
+    "Mention projects with results: what you built, tech used, outcome.",
+    "Use simple formatting and strong action words."
+  ]
+},
+{
+  "tag": "interview_tips",
+  "patterns": [
+    "interview tips",
+    "how to crack interview",
+    "job interview help",
+    "technical interview tips",
+    "hr interview tips",
+    "interview kaise clear kare",
+    "mock interview",
+    "tell me interview questions"
+  ],
+  "responses": [
+    "Revise basics, prepare 2-3 projects, and practice explaining your code.",
+    "For HR: be confident, honest, and clear about your goals.",
+    "Want practice? Tell me your role and I’ll ask mock questions."
+  ]
+},
+{
+  "tag": "communication_tips",
+  "patterns": [
+    "communication skills",
+    "how to communicate better",
+    "improve english speaking",
+    "how to speak confidently",
+    "public speaking tips",
+    "confidence kaise badhaye",
+    "communication improve",
+    "how to talk properly"
+  ],
+  "responses": [
+    "Speak slowly, use simple words, and practice daily 10 minutes.",
+    "Record yourself, fix mistakes, and build confidence step by step.",
+    "Confidence improves with practice, not perfection."
+  ]
+},
+{
+  "tag": "procrastination_help",
+  "patterns": [
+    "i procrastinate",
+    "stop procrastination",
+    "i am lazy",
+    "how to stop being lazy",
+    "procrastination tips",
+    "i delay work",
+    "how to start working",
+    "motivate to work"
+  ],
+  "responses": [
+    "Start with just 5 minutes. Once you start, momentum builds.",
+    "Break task into tiny steps and remove distractions.",
+    "Use a timer and reward yourself after finishing."
+  ]
+},
+{
+  "tag": "mental_health_support",
+  "patterns": [
+    "i feel stressed",
+    "i am anxious",
+    "i feel lonely",
+    "i feel sad",
+    "stress help",
+    "anxiety tips",
+    "i am overthinking",
+    "how to calm down"
+  ],
+  "responses": [
+    "I’m sorry you’re feeling this way. Try slow breathing: inhale 4 sec, exhale 6 sec.",
+    "Talk to a trusted friend/family member. If it feels serious, consider a professional.",
+    "Tell me what’s bothering you — I’ll listen and help you organize next steps."
+  ]
+},
+{
+  "tag": "emergency_help",
+  "patterns": [
+    "i want to hurt myself",
+    "i am in danger",
+    "help me emergency",
+    "i feel like ending it",
+    "i want to die",
+    "urgent help",
+    "i am not safe",
+    "suicide thoughts"
+  ],
+  "responses": [
+    "If you are in immediate danger, please call local emergency services right now or reach out to someone near you.",
+    "You don’t have to face this alone. Please contact a trusted person immediately and seek professional help.",
+    "If you tell me your country, I can share crisis helpline options. Right now, please reach out to someone close."
+  ]
+},
+{
+  "tag": "fun_facts",
+  "patterns": [
+    "tell me a fun fact",
+    "fun fact",
+    "give me an interesting fact",
+    "random fact",
+    "amazing fact",
+    "science fact",
+    "tech fact",
+    "fact batao"
+  ],
+  "responses": [
+    "Fun fact: The first computer 'bug' was actually a moth found in a machine.",
+    "Interesting fact: The internet started as a research network called ARPANET.",
+    "Fun fact: Honey never spoils if stored properly."
+  ]
+}
+,
+{
+  "tag": "java_features",
+  "patterns": [
+    "features of java",
+    "java features",
+    "java ki khasiyat",
+    "what are the features of java",
+    "why java is called robust",
+    "java advantages",
+    "benefits of java"
+  ],
+  "responses": [
+    "Java is popular because it is platform independent (Write Once Run Anywhere) using the JVM. It is object oriented, secure, and robust with strong memory management and exception handling. Java also supports multithreading for running multiple tasks at the same time, and it has a huge ecosystem of libraries and frameworks for web, mobile, and enterprise apps.",
+    "Key Java features: Platform independent (JVM), Object Oriented (classes/objects), Secure (bytecode verification, sandboxing), Robust (garbage collection, exception handling), Multithreading, High performance with JIT compiler, and a large community with many frameworks like Spring and Hibernate."
+  ]
+},
+{
+  "tag": "python_features",
+  "patterns": [
+    "features of python",
+    "python features",
+    "python advantages",
+    "why python is easy",
+    "python benefits",
+    "python ki khasiyat",
+    "why python is popular"
+  ],
+  "responses": [
+    "Python is famous for its simple readable syntax, which makes it easy for beginners. It supports multiple programming styles (procedural, object oriented, functional). Python also has a massive library ecosystem for AI/ML (TensorFlow, PyTorch), data science (NumPy, Pandas), automation, web development (Django, Flask), and scripting. It is cross-platform and has a very large developer community.",
+    "Python is popular because it helps you build projects faster. You write fewer lines of code compared to many languages, it has strong community support, and thousands of ready-made packages to solve real-world problems like web apps, automation scripts, data analysis, and AI."
+  ]
+},
+{
+  "tag": "html_tags",
+  "patterns": [
+    "html tags list",
+    "common html tags",
+    "important html tags",
+    "html tags explain",
+    "basic html elements",
+    "html headings paragraph tags"
+  ],
+  "responses": [
+    "Common HTML tags: <h1> to <h6> for headings, <p> for paragraphs, <a> for links, <img> for images, <ul>/<ol> for lists, <li> for list items, <div> for sections, <span> for inline text, <table> for tables, <form> for forms, <input> for user input, and <button> for buttons. HTML provides the structure of a webpage.",
+    "HTML tags are building blocks of a webpage. Example: <h1>Title</h1> for headings, <p>Text</p> for paragraph, <a href='...'>Link</a> for hyperlinks, and <img src='...'> for images. Use <div> to group elements and <form> to collect user input."
+  ]
+},
+{
+  "tag": "css_concepts",
+  "patterns": [
+    "css concepts",
+    "css selectors",
+    "css box model",
+    "css flexbox grid",
+    "how css works",
+    "css basics explain"
+  ],
+  "responses": [
+    "CSS controls design and layout of HTML. Important concepts: Selectors (target elements like p, .class, #id), Box Model (content, padding, border, margin), Positioning (static, relative, absolute, fixed), Flexbox (1D layout for rows/columns), Grid (2D layout for complex designs), and Responsive design using media queries to fit mobile screens.",
+    "CSS works by selecting HTML elements and applying styles like color, font, spacing, and layout. The box model is very important: every element is a box with content + padding + border + margin. For modern layouts, Flexbox is best for alignment and Grid is best for full page layouts."
+  ]
+},
+{
+  "tag": "js_dom",
+  "patterns": [
+    "what is dom in javascript",
+    "javascript dom explain",
+    "dom manipulation",
+    "how js changes html",
+    "document object model"
+  ],
+  "responses": [
+    "DOM (Document Object Model) is a tree-like structure of your web page that JavaScript can access and change. Using DOM, JavaScript can update text, change styles, add/remove elements, and handle events like clicks. Example: document.getElementById('title').innerText = 'Hello' changes a heading text on the page.",
+    "DOM allows JavaScript to make websites dynamic. You can select elements (getElementById, querySelector), then modify them (innerHTML, style, classList) and respond to user actions using event listeners like addEventListener('click', function(){...})."
+  ]
+},
+{
+  "tag": "api_examples",
+  "patterns": [
+    "api example",
+    "where api is used",
+    "real life api examples",
+    "api in apps",
+    "api in websites"
+  ],
+  "responses": [
+    "Real-life API examples: 1) Weather app calls a weather API to get temperature. 2) Payment apps call a payment gateway API to complete transactions. 3) Login with Google uses OAuth APIs. 4) Food delivery apps call maps APIs for location tracking. APIs connect your app to external services securely.",
+    "APIs are used whenever one software needs data from another. For example, your frontend sends a request to backend API to fetch user profile, products list, or order status. Social apps use APIs to upload posts, like, comment, and get feeds."
+  ]
+},
+{
+  "tag": "ml_working",
+  "patterns": [
+    "how machine learning works",
+    "machine learning process",
+    "ml steps",
+    "training testing validation",
+    "how model learns"
+  ],
+  "responses": [
+    "Machine Learning works by learning patterns from data. Steps: 1) Collect data 2) Clean data 3) Split into training and testing 4) Choose algorithm/model 5) Train model (adjust weights to reduce error) 6) Evaluate on test data 7) Improve using tuning and more data 8) Deploy for real use. The model does not 'memorize' only; it learns patterns that generalize to new inputs.",
+    "In ML, training means feeding examples with correct answers so the model learns a mapping from input to output. Testing checks performance on unseen data. If accuracy is low, you improve with better features, more data, better model, and hyperparameter tuning."
+  ]
+},
+{
+  "tag": "ai_vs_ml",
+  "patterns": [
+    "difference between ai and ml",
+    "ai vs ml",
+    "ml vs ai",
+    "is ml part of ai",
+    "ai and machine learning difference"
+  ],
+  "responses": [
+    "AI (Artificial Intelligence) is a broad field where machines perform tasks that seem intelligent, like reasoning, planning, and decision making. ML (Machine Learning) is a subset of AI where systems learn from data instead of being explicitly programmed. So, all ML is AI, but not all AI is ML. Example: Rule-based chatbots are AI but not ML; a spam filter trained on emails is ML.",
+    "AI is the overall goal: make machines smart. ML is one method to achieve AI: learn patterns from data. Deep Learning is a subset of ML that uses neural networks with many layers."
+  ]
+},
+{
+  "tag": "database_types",
+  "patterns": [
+    "types of database",
+    "sql vs nosql",
+    "database categories",
+    "relational database meaning",
+    "what is rdbms"
+  ],
+  "responses": [
+    "Main database types: 1) Relational (SQL) like MySQL, PostgreSQL where data is stored in tables with rows/columns. 2) NoSQL like MongoDB for document-based flexible data. 3) Key-value stores like Redis for caching. 4) Graph databases like Neo4j for relationships. SQL is best for structured data and transactions; NoSQL is best for flexible structure and horizontal scaling.",
+    "RDBMS (Relational Database Management System) stores data in tables and supports SQL queries and ACID transactions. NoSQL databases store data in different formats like documents and are often used for big scalable applications."
+  ]
+},
+{
+  "tag": "cloud_models",
+  "patterns": [
+    "cloud service models",
+    "iaas paas saas",
+    "what is iaas paas saas",
+    "cloud types explain",
+    "cloud deployment models"
+  ],
+  "responses": [
+    "Cloud service models: IaaS (Infrastructure as a Service) gives you virtual machines and networks (example: AWS EC2). PaaS (Platform as a Service) gives you a ready platform to deploy apps without managing servers (example: Heroku). SaaS (Software as a Service) gives you complete software online (example: Google Drive). Deployment models: Public cloud, Private cloud, Hybrid cloud.",
+    "IaaS = rent servers, PaaS = rent a platform to deploy easily, SaaS = use ready software. Public cloud is shared by many customers, private cloud is dedicated for one organization, hybrid combines both."
+  ]
+},
+{
+  "tag": "os_functions",
+  "patterns": [
+    "functions of operating system",
+    "os role",
+    "what does os do",
+    "operating system features",
+    "why os is important"
+  ],
+  "responses": [
+    "Operating System (OS) manages hardware and software resources. Key functions: process management (running programs), memory management (RAM usage), file management (save/open files), device management (keyboard, printer), security (user permissions), and user interface (GUI/CLI). Without OS, you cannot run applications easily on hardware.",
+    "OS works like a manager: it allocates CPU time, manages RAM, controls input/output devices, and provides a stable environment to run applications. Examples: Windows, Linux, macOS, Android."
+  ]
+},
+{
+  "tag": "ram_vs_rom",
+  "patterns": [
+    "difference between ram and rom",
+    "ram vs rom",
+    "ram and rom meaning",
+    "what is rom",
+    "why rom is used"
+  ],
+  "responses": [
+    "RAM (Random Access Memory) is temporary memory used while programs run. It is fast but data is lost when power is off. ROM (Read Only Memory) is permanent memory that stores essential startup instructions (like BIOS/firmware). RAM helps performance, ROM helps boot and basic system operations.",
+    "RAM is volatile (clears after shutdown) and used for multitasking. ROM is non-volatile (keeps data) and stores firmware needed to start the computer."
+  ]
+},
+{
+  "tag": "cpu_vs_gpu",
+  "patterns": [
+    "difference between cpu and gpu",
+    "cpu vs gpu",
+    "gpu meaning",
+    "cpu and gpu work",
+    "why gpu is used in ai"
+  ],
+  "responses": [
+    "CPU is the general-purpose brain that handles many different tasks and logic operations. GPU has thousands of smaller cores designed for parallel processing, so it handles graphics and large matrix calculations very fast. AI and deep learning use GPU because training neural networks requires massive parallel computations.",
+    "CPU is best for sequential tasks and system operations. GPU is best for parallel tasks like graphics rendering and deep learning training."
+  ]
+},
+{
+  "tag": "internet_working",
+  "patterns": [
+    "how internet works",
+    "internet working",
+    "how data travels on internet",
+    "internet kaise chalta",
+    "websites kaise open hoti"
+  ],
+  "responses": [
+    "Internet works by sending data in small packets through networks. When you open a website, your device asks DNS to translate the domain into an IP address, then your browser sends an HTTP/HTTPS request to the server. The server responds with web data (HTML/CSS/JS) which your browser renders into a webpage. Routers guide packets from your device to the server and back.",
+    "Websites open using client-server communication: DNS finds server IP, then your browser requests data using HTTP/HTTPS, and the server sends back files. Everything travels as packets through routers and networks."
+  ]
+},
+{
+  "tag": "cybersecurity_basics",
+  "patterns": [
+    "cybersecurity basics",
+    "what is phishing",
+    "what is malware",
+    "how hackers hack",
+    "cyber attacks types",
+    "online safety explain"
+  ],
+  "responses": [
+    "Cybersecurity protects systems from attacks. Common threats: Phishing (fake emails/messages to steal info), Malware (virus, trojan, ransomware), Password attacks (weak passwords), and Social engineering (tricking people). Best protection: strong unique passwords, 2FA, updated software, avoid unknown links, and use secure networks.",
+    "Phishing is when attackers pretend to be trusted (bank, company) to steal passwords/OTP. Malware is harmful software. Stay safe by verifying links, enabling 2FA, and not sharing personal info."
+  ]
+},
+{
+  "tag": "coding_best_practices",
+  "patterns": [
+    "coding best practices",
+    "how to write clean code",
+    "clean code tips",
+    "best coding habits",
+    "how to become good programmer"
+  ],
+  "responses": [
+    "Clean code tips: use meaningful variable names, write small functions, keep code readable, add comments only where needed, handle errors properly, and follow consistent formatting. Also use Git for version control and write tests for important logic. Practice by building small projects and refactoring your code.",
+    "To become a better programmer: learn fundamentals, practice daily, build real projects, debug patiently, read others' code, and improve step-by-step. Consistency matters more than speed."
+  ]
+},
+{
+  "tag": "python_projects",
+  "patterns": [
+    "python project ideas",
+    "projects in python",
+    "python mini projects",
+    "python final year project",
+    "python automation ideas",
+    "python ai projects"
+  ],
+  "responses": [
+    "Python project ideas: 1) Voice assistant (speech + TTS) 2) Chatbot with intents 3) Expense tracker 4) Weather app using API 5) Face detection attendance system 6) Spam email classifier 7) Movie recommendation system 8) URL shortener 9) PDF text extractor 10) Automation: rename files, scrape websites. Tell me your level (beginner/intermediate) and I’ll suggest best.",
+    "If you want AI projects: sentiment analysis, fake news detector, image classifier, or chatbot. If you want automation: auto-email sender, file organizer, or web scraper."
+  ]
+},
+{
+  "tag": "web_projects",
+  "patterns": [
+    "web development projects",
+    "html css js project ideas",
+    "frontend projects",
+    "react project ideas",
+    "full stack project idea",
+    "website project for college"
+  ],
+  "responses": [
+    "Web project ideas: 1) Portfolio website 2) To-do app 3) Notes app 4) Weather dashboard (API) 5) E-commerce product page 6) Blog website 7) Chat app (socket) 8) Attendance management system 9) Expense tracker 10) Mini social media feed. For React: build components, routing, forms, and integrate APIs.",
+    "For full stack: make a login system + dashboard + database (MongoDB/MySQL). Add features like CRUD, search, and filters for strong final year project."
+  ]
+},
+{
+  "tag": "interview_questions_web",
+  "patterns": [
+    "web interview questions",
+    "frontend interview questions",
+    "html css js interview",
+    "react interview questions",
+    "full stack interview questions"
+  ],
+  "responses": [
+    "Frontend interview areas: HTML semantics, CSS box model, Flexbox/Grid, JavaScript basics (scope, hoisting, closures), DOM, fetch API, and React (state, props, hooks, lifecycle). If you tell me your experience level, I can generate a full question list with answers.",
+    "For React interviews: explain useState/useEffect, props vs state, component re-render, lifting state up, controlled forms, and routing. Practice by building 2-3 projects and explaining your code clearly."
+  ]
+},
+{
+  "tag": "resume_detailed",
+  "patterns": [
+    "make my resume",
+    "resume banado",
+    "cv banani hai",
+    "resume for fresher",
+    "ats resume format",
+    "resume summary"
+  ],
+  "responses": [
+    "A strong fresher resume should be 1 page and include: Name + Contact, Skills (languages/tools), Projects (2-4 with tech stack and results), Education, Certifications, and Achievements. Write projects like: Problem → What you built → Tech used → Result. If you give your details, I can create a full ATS-friendly resume text.",
+    "ATS resume tips: simple format, no heavy graphics, use keywords from job description, and add measurable points like 'Built a chatbot with 25 intents and 90% accuracy'."
+  ]
+},
+{
+  "tag": "communication_detailed",
+  "patterns": [
+    "how to improve english",
+    "english speaking tips",
+    "confidence improve",
+    "public speaking help",
+    "how to talk confidently",
+    "communication improve kaise kare"
+  ],
+  "responses": [
+    "To improve English speaking: 1) Speak daily 10 minutes (mirror or recording) 2) Learn 5 new words daily and use them in sentences 3) Watch English videos with subtitles and repeat lines 4) Think in English for small tasks 5) Practice with a friend. Confidence increases by practice, not by waiting for perfection.",
+    "Public speaking tips: prepare key points, practice slowly, maintain eye contact, and breathe properly. Start with short talks and gradually increase time."
+  ]
+},
+{
+  "tag": "focus_detailed",
+  "patterns": [
+    "i can't concentrate",
+    "how to focus",
+    "focus increase",
+    "mind distract hota hai",
+    "study concentration improve",
+    "how to stop distractions"
+  ],
+  "responses": [
+    "To improve focus: 1) Keep phone away or use focus mode 2) Study in Pomodoro (25 min focus + 5 min break) 3) Make a small target like 'finish 2 pages' 4) Study at the same time daily 5) Sleep 7-8 hours. Also, start with the easiest task to build momentum.",
+    "Distractions reduce when your goal is small and clear. Write your task on paper, set a timer, and only do that one thing until the timer ends."
+  ]
+},
+{
+  "tag": "debugging_detailed",
+  "patterns": [
+    "i have an error",
+    "how to fix bug",
+    "debugging help",
+    "code is not working",
+    "python error fix",
+    "tensorflow error",
+    "model not predicting"
+  ],
+  "responses": [
+    "Debugging steps: 1) Read the error message carefully 2) Check the exact line number 3) Print variables and shapes (especially in ML) 4) Run code step-by-step 5) Search the exact error text 6) Test with small input. In ML models, also verify tokenizer, label encoder, and dataset tags match training.",
+    "If your model predictions are wrong, check: same tokenizer.pkl and label_encoder.pkl used, same maxlen in padding, and that your intents.json is the same file used for training."
+  ]
+},
+{
+  "tag": "chatbot_training_detailed",
+  "patterns": [
+    "how to train chatbot",
+    "chatbot model training",
+    "intents training process",
+    "how to improve chatbot accuracy",
+    "my chatbot gives wrong answers"
+  ],
+  "responses": [
+    "To train an intents chatbot: 1) Prepare intents.json with many patterns per tag 2) Convert patterns to training X and tags to Y 3) Fit tokenizer on patterns and save tokenizer.pkl 4) Encode tags using LabelEncoder and save label_encoder.pkl 5) Pad sequences with same maxlen for train and inference 6) Train model and save chat_model.h5. Accuracy improves with more patterns per tag and balanced data.",
+    "Wrong answers usually happen if: your new intents were added but model not retrained, or the runtime is loading old tokenizer/encoder. Always retrain after changing intents.json and load the new files."
+  ]
+},
+{
+  "tag": "health_basic",
+  "patterns": [
+    "health tips",
+    "how to stay healthy",
+    "daily health routine",
+    "fitness tips",
+    "healthy habits"
+  ],
+  "responses": [
+    "Basic health habits: drink enough water, sleep 7-8 hours, eat balanced food (protein, veggies, fruits), walk 30 minutes daily, reduce junk food, and manage stress. If you tell me your goal (weight loss/gain/fitness), I can suggest a simple routine.",
+    "Staying healthy is mostly consistency: daily movement, good sleep, and balanced diet. Start small and keep it regular."
+  ]
+},
+{
+  "tag": "diet_basic",
+  "patterns": [
+    "diet plan",
+    "weight loss diet",
+    "weight gain diet",
+    "healthy food tips",
+    "what should i eat",
+    "diet for students"
+  ],
+  "responses": [
+    "A simple healthy diet: include protein (eggs, dal, chicken, paneer), complex carbs (roti, rice, oats), healthy fats (nuts), and vegetables. For weight loss: reduce sugary drinks and fried food, focus on protein and fiber. For weight gain: increase calories with healthy foods like दूध, केला, nuts, and frequent meals.",
+    "Tell me your age, height, weight, and goal (loss/gain), then I can suggest a basic diet routine."
+  ]
+},
+{
+  "tag": "finance_basic",
+  "patterns": [
+    "saving tips",
+    "how to save money",
+    "budget tips",
+    "student budget",
+    "money management",
+    "personal finance basics"
+  ],
+  "responses": [
+    "To save money: track expenses, set a monthly budget, avoid unnecessary subscriptions, and follow 50/30/20 rule (needs/wants/savings). Keep an emergency fund first, then invest slowly. If you tell me your monthly income/allowance, I can suggest a simple budget plan.",
+    "Money management basics: spend on needs first, limit wants, and save a fixed amount every month. Small savings become big with consistency."
+  ]
+}
+,
+{
+  "tag": "java_addition_program",
+  "patterns": [
+    "java program for addition",
+    "addition program in java",
+    "how to add two numbers in java",
+    "write java code for addition",
+    "java addition example",
+    "sum of two numbers java",
+    "simple java addition program"
+  ],
+  "responses": [
+    "Here is a simple Java program to add two numbers:\n\npublic class Addition {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 20;\n        int sum = a + b;\n        System.out.println(\"Sum is: \" + sum);\n    }\n}\n\nExplanation: We declare two integer variables a and b, then use the + operator to add them. The result is stored in 'sum' and printed using System.out.println.",
+    "Java addition example using user input:\n\nimport java.util.Scanner;\n\npublic class Addition {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter first number: \");\n        int a = sc.nextInt();\n        System.out.print(\"Enter second number: \");\n        int b = sc.nextInt();\n        int sum = a + b;\n        System.out.println(\"Sum is: \" + sum);\n    }\n}\n\nExplanation: Scanner class is used to take input from the user. Then we add the numbers and display the result."
+  ]
+},
+{
+  "tag": "java_subtraction_program",
+  "patterns": [
+    "java program for subtraction",
+    "subtraction program in java",
+    "how to subtract in java",
+    "write java code for subtraction",
+    "difference of two numbers java"
+  ],
+  "responses": [
+    "Here is a simple Java subtraction program:\n\npublic class Subtraction {\n    public static void main(String[] args) {\n        int a = 50;\n        int b = 20;\n        int result = a - b;\n        System.out.println(\"Difference is: \" + result);\n    }\n}\n\nExplanation: The '-' operator is used to subtract b from a. The result is printed on the screen."
+  ]
+},
+{
+  "tag": "java_multiplication_program",
+  "patterns": [
+    "java program for multiplication",
+    "multiplication program in java",
+    "how to multiply numbers in java",
+    "write java code for multiplication",
+    "product of two numbers java"
+  ],
+  "responses": [
+    "Here is a simple Java multiplication program:\n\npublic class Multiplication {\n    public static void main(String[] args) {\n        int a = 6;\n        int b = 7;\n        int product = a * b;\n        System.out.println(\"Product is: \" + product);\n    }\n}\n\nExplanation: The '*' operator is used to multiply two numbers. The result is stored in product and displayed."
+  ]
+},
+{
+  "tag": "java_division_program",
+  "patterns": [
+    "java program for division",
+    "division program in java",
+    "how to divide numbers in java",
+    "write java code for division",
+    "quotient of two numbers java"
+  ],
+  "responses": [
+    "Here is a simple Java division program:\n\npublic class Division {\n    public static void main(String[] args) {\n        int a = 20;\n        int b = 4;\n        int result = a / b;\n        System.out.println(\"Result is: \" + result);\n    }\n}\n\nExplanation: The '/' operator divides a by b. Note: If both numbers are integers, the result will also be an integer (no decimal)."
+  ]
+},
+{
+  "tag": "java_modulus_program",
+  "patterns": [
+    "java program for modulus",
+    "mod operator in java",
+    "remainder program java",
+    "how to find remainder in java"
+  ],
+  "responses": [
+    "Here is a Java program to find remainder using modulus operator:\n\npublic class Modulus {\n    public static void main(String[] args) {\n        int a = 10;\n        int b = 3;\n        int remainder = a % b;\n        System.out.println(\"Remainder is: \" + remainder);\n    }\n}\n\nExplanation: The '%' operator returns the remainder after division."
+  ]
+},
+{
+  "tag": "java_calculator_program",
+  "patterns": [
+    "java calculator program",
+    "simple calculator in java",
+    "java program for calculator",
+    "switch case calculator java",
+    "calculator example java"
+  ],
+  "responses": [
+    "Here is a simple Java calculator using switch statement:\n\nimport java.util.Scanner;\n\npublic class Calculator {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter first number: \");\n        double a = sc.nextDouble();\n        System.out.print(\"Enter second number: \");\n        double b = sc.nextDouble();\n        System.out.print(\"Enter operator (+, -, *, /): \");\n        char op = sc.next().charAt(0);\n        double result;\n\n        switch(op) {\n            case '+': result = a + b; break;\n            case '-': result = a - b; break;\n            case '*': result = a * b; break;\n            case '/': result = a / b; break;\n            default: System.out.println(\"Invalid operator\"); return;\n        }\n\n        System.out.println(\"Result is: \" + result);\n    }\n}\n\nExplanation: The switch statement checks which operator is entered and performs the corresponding arithmetic operation."
+  ]
+}
+
+
+  ]
+  
+}
+
+
+
+
